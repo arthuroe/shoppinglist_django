@@ -23,6 +23,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 # TEMPLATE_DEBUG = DEBUG
 TEMPLATES[0]['OPTIONS']['debug'] = True
